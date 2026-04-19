@@ -1,5 +1,7 @@
 name: Render R Markdown
 
+name: Render R Markdown
+
 on:
   push:
     branches: [ main ]
@@ -15,7 +17,7 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install dependencies
+      - name: Install dependencies (cached)
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
@@ -25,3 +27,9 @@ jobs:
       - name: Render
         run: rmarkdown::render("2026.karina.inagprof.Rmd")
         shell: Rscript {0}
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: presentation
+          path: 2026.karina.inagprof.pptx
