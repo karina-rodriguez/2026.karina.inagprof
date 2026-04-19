@@ -15,9 +15,9 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
-          install.packages("rmarkdown")
+          install.packages(c("rmarkdown", "knitr", "ggplot2", "dplyr"))
         shell: Rscript {0}
 
       - name: Render
