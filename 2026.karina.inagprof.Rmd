@@ -1,18 +1,13 @@
+---
 title: "Reimagining Cultural Heritage in the Digital Age, A Journey Through Research"
 subtitle: "Professorial Innagural"
-author: "Professor Karina Rodriguez Echavarria"
-institute: "University of Brighton"
-date: "23 April, 2026"
-slide-number : true
-show-slide-number : print
-footer: "yes"
 output: powerpoint_presentation
 #  powerpoint_presentation:
 # reference_doc: pres_15Apr.pptx
 ---
   
   
-  ::: {.notes}
+::: {.notes}
 As our lives become increasingly digital, so too does our experience of culture. Advances in computing are transforming artefacts, historic environments, and cultural practices into interactive digital experiences. These "digital twins" do more than preserve the past — they make heritage accessible beyond physical museums and archives, opening up new possibilities for creativity, education, and public engagement.
 
 This talk traces the motivations, questions and continuous evolution of my research,
