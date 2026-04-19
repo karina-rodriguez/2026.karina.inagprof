@@ -1,5 +1,7 @@
 # Reimagining cultural heritage in the digital age
 
+![]("images/Inaugural_Karina_Rodriguez_Echavarria.v02.small.jpg")
+
 ## Presentation for Karina Rodriguez Echavarria's Inaugural lecture
 
 Thursday 23 April 2026, 6.30pm, Huxley Lecture Theatre (300), Moulsecoomb, Brighton UK
