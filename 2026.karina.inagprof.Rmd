@@ -1,49 +1,123 @@
 ---
 title: "Reimagining Cultural Heritage in the Digital Age, A Journey Through Research"
 subtitle: "Professorial Innagural"
-output: powerpoint_presentation
-#  powerpoint_presentation:
-# reference_doc: pres_15Apr.pptx
+output: 
+  powerpoint_presentation:
+  reference_doc: template.pptx
+bibliography: allpubs.bib
+marp: true
 ---
   
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
   
 ::: {.notes}
 As our lives become increasingly digital, so too does our experience of culture. Advances in computing are transforming artefacts, historic environments, and cultural practices into interactive digital experiences. These "digital twins" do more than preserve the past — they make heritage accessible beyond physical museums and archives, opening up new possibilities for creativity, education, and public engagement.
 
-This talk traces the motivations, questions and continuous evolution of my research,
-and the wider research landscape on digital innovation.
-From early work on systems to share information stemeed from the
-availability of early web technologies,
-to the current advances of Artificial Intelligence or AI
-for digital cultural heritage, my story 
-reveals how technology has progressively transformed 
-not just *how* we document and preserve culture, 
-but *who* can access it, 
-*how* we engage with it, 
-and *what* questions we must ask about ownership, 
-representation, and sustainability.
 
-I would also like to explore technologies ability to 
-help humans discover/better understand humanity - past and present - through the 
-material culture they create and their immaterial heritage.
-
-Let's first look at my human-self
-
-How technologies help us understand what defines as humans
-How we make it work to keep this humanity forward going
 ::::
 
-<!-- Slide 1 -->
+# Topics
 
-<!-- # Introduction {background-image="images/im.jpg"} -->
+## - Context and bias
+## - A quest for data
+## - Data-driven approaches
+## - Role of Artificial Intelligence
 
-<!-- ## {background-image="images/im.jpg"} -->
+:::: notes
+This talk traces the motivations, questions, and continuous evolution of my research, as well as the wider research landscape on digital innovation. Through digital innovation, my research aims to uncover the
+stories of material culture and the people, both past and present,
+who created and interacted with these objects and environments.
+Their narratives, and what they tell us about being human, are a constant focus of the research.
+
+The talk is organised across three main topics, each aligned with a decade of research. I will begin by outlining my background and context. Next, I will trace the motivations, questions, and evolution of my research, as well as the wider research landscape on digital innovation.
+
+Secondly, I will explore the big push for digitisation in the 2000s, particularly across the Galleries, Libraries, Archives and Museums (or GLAM) sectors.
+
+Following this, I will discuss the infrastructures and data-driven approaches developed to organise, enable, and open access to data.
+
+I would finish with the rise of Artificial Intelligence and explore its role in trawling large amounts of data.
+
+Through these sections, the talk explores how digital technologies, especially visual technologies, have transformed how we document and preserve culture. They have also changed who can access it, how we engage with it, and the questions we must ask about ownership, representation, and sustainability.
+::::
+
+# {background-image="images/Mexico.png"}
+
+:::: notes
+I took this picture back in 2003.
+I noticed 3 issues: difficult to access the site, visitors must have an impact on the state of preservation of the site, interpretation could be improved.
+Computational technologies offered:
+- Enable to record, share and improve the visualization of information 
+It became obvious the potential of bringing together the disciplines of computing and cultural heritage
+::::
+
+::: {.notes}
+
+::::
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Part 1*****************************-->
+<!-- *****The quest for data: more data better stories/use*****-->
+<!-- ******************************************************************-->
 
 
-# Slide 1
+# Grand Challenges
 
-Test [^1]
+## To enhance data capture, preservation and scholarship in cultural heritage
+## To bring history to life for the citizen
+- Digital reconstruction
+- Story telling
+- Visitor experiences
+- Internet, mobile, digital, virtual reality applications
 
 
-[^1]: This appears at the bottom of the current slide.
 
+# Immersive Environments
+
+![&copy; [@9b3042bee3474ac1ae615d711196c840]](images/AvatarsEPOCH.png )
+
+
+
+
+
+
+
+
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Part 2*****************************-->
+<!-- **Algorithmic ways to understand/organise data and approaches*******-->
+<!-- ******************************************************************-->
+
+
+
+
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Part 3*****************************-->
+<!-- **Looking at the future: AI role in data-driven approaches*******-->
+<!-- ******************************************************************-->
+
+# Acknowledgments
+
+D. Arnold, O. Abdel Barr, A. Aboulfadl, N. Ali, G. Aitken, A. Al-Ashaab, F. Alves de Oliveira, L. Armstrong, X. Aure, J.B. Barreau, E. Bell, N. Brownsword, M. Bushnel, D. Boyer, E. Carillo, W. Cash, M. Chikama, M. Danks, A. Day, A. Delaney, L. Dibble, S. Dixon, M. Doerr, L. Garnier, R. Gaugne, C. Georgis, J. Glauert, M. Goodchild, A. Grantham, M. Griffin, S. Haegler, R. Haynes, M. Hedges, K. Howland, Y. Huang, L. Isaksen, N. Jakeman, V. Jennings, R. Kadobayashi, J. Kaminski, D. Kanellou, E. Kartaki, R. Laycock, Y. Liu, N. Magnenat-Thalmann, R. Marroquim, R. Martin, J. McLoughlin, A. Medeiros, A. Molina, D. Morris, S. Pena Serna, L. Pemberton, M. Penn, M. Proesmans, R. Pillay, D. Pitzalis, S. Sakkout, A. Salah, M. Samaroudi, B. Schneider, R. Scopigno, N. Sharara, S. Shimojo, M. Shepard, E. Silverton, J. Smythe, R. Song, J. Stevenson, A. Stork, Z. Sujon, N. Theophane, M. Theodoridou, A. Trujillo-Vazquez, T. Weyrich, M. Wynne, J. Winchester, J. Winckler, L. Wieneke, L. Yu-Kun, K. Zumkley
+
+
+
+# {background-image="images/IMG_7257.png"}
+
+:::: notes
+I would like to make a special mention of my husband and children, whose unconditional support means more than words can express. 
+They provide me with a life beyond research — one that gives everything else its proper meaning and perspective.
+
+# Thank You
+
+## I now introduce name to conclude proceedings Prof Imran Rafiq
+
+::::
+# References
+
+::: {#refs}
+:::
