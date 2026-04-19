@@ -1,7 +1,5 @@
 name: Render R Markdown
 
-name: Render R Markdown
-
 on:
   push:
     branches: [ main ]
