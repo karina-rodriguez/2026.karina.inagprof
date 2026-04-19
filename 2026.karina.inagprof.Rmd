@@ -1,0 +1,54 @@
+title: "Reimagining Cultural Heritage in the Digital Age, A Journey Through Research"
+subtitle: "Professorial Innagural"
+author: "Professor Karina Rodriguez Echavarria"
+institute: "University of Brighton"
+date: "23 April, 2026"
+slide-number : true
+show-slide-number : print
+footer: "yes"
+output: powerpoint_presentation
+#  powerpoint_presentation:
+# reference_doc: pres_15Apr.pptx
+---
+  
+  
+  ::: {.notes}
+As our lives become increasingly digital, so too does our experience of culture. Advances in computing are transforming artefacts, historic environments, and cultural practices into interactive digital experiences. These "digital twins" do more than preserve the past — they make heritage accessible beyond physical museums and archives, opening up new possibilities for creativity, education, and public engagement.
+
+This talk traces the motivations, questions and continuous evolution of my research,
+and the wider research landscape on digital innovation.
+From early work on systems to share information stemeed from the
+availability of early web technologies,
+to the current advances of Artificial Intelligence or AI
+for digital cultural heritage, my story 
+reveals how technology has progressively transformed 
+not just *how* we document and preserve culture, 
+but *who* can access it, 
+*how* we engage with it, 
+and *what* questions we must ask about ownership, 
+representation, and sustainability.
+
+I would also like to explore technologies ability to 
+help humans discover/better understand humanity - past and present - through the 
+material culture they create and their immaterial heritage.
+
+Let's first look at my human-self
+
+How technologies help us understand what defines as humans
+How we make it work to keep this humanity forward going
+::::
+
+<!-- Slide 1 -->
+
+<!-- # Introduction {background-image="images/im.jpg"} -->
+
+<!-- ## {background-image="images/im.jpg"} -->
+
+
+# Slide 1
+
+Test [^1]
+
+
+[^1]: This appears at the bottom of the current slide.
+
