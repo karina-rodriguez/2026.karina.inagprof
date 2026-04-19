@@ -1,6 +1,6 @@
 # Reimagining cultural heritage in the digital age
 
-![]("images/Inaugural_Karina_Rodriguez_Echavarria.v02.small.jpg")
+![](images/Inaugural_Karina_Rodriguez_Echavarria.v02.small.jpg)
 
 ## Presentation for Karina Rodriguez Echavarria's Inaugural lecture
 
