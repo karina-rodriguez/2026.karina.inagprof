@@ -2,6 +2,7 @@
 title: "Reimagining Cultural Heritage in the Digital Age"
 subtitle: "Professorial Innagural, 23 April 2026"
 output: powerpoint_presentation
+slide_level: 4
 bibliography: allpubs.bib
 ---
 
@@ -59,24 +60,22 @@ Through these sections, the talk explores how digital technologies, especially v
 
 :::: notes
 After completing a degree in Computer Systems Engineering in Mexico in 99, I arrived in the UK in 2001, supported by a scholarship from the Overseas Research Students Awards Scheme (ORSAS), to begin my PhD at the University of Wolverhampton.
-Being away from my country for the first time during my doctoral studies renewed my long-term interest in its culture and history, a subject I had greatly enjoyed during my schooling days.
+Being away from my country for the first time during my doctoral studies renewed my long-term interest in its culture and history, a subject I had greatly enjoyed during my schooling days. History was one of my favourite subjects in middle school. While museums were not so common, Mexico has amazing archaeological sites, many of which I visited. 
 
-At the time, my research involved developing digital innovations
-to support the documentation of industrial processes for plastic-injection moulded products.
-This involved exploring technologies such as web platforms, collaborative technologies 
+At the time, my research involved developing digital innovations to support the documentation of industrial processes for plastic-injection moulded products. This involved exploring technologies such as web platforms, collaborative technologies 
 and 3D formats to represent content.
+
+
 ::::
 
 # {background-image="images/Mexico.png"}
 
 ::: {.notes}
 
-Just before finishing my PhD, 
-Heritage was around difficult to access the site, visitors must have an impact on the state of preservation of the site, interpretation could be improved.
-Computational technologies offered:
-  - Enable to record, share and improve the visualization of information 
-It became obvious the potential of bringing together the disciplines of computing and cultural heritage
+In the final stretch of my PhD, a visit to the archaeological site of Teotihuacan near Mexico City planted the seed for what would become my research career. Teotihuacan is one of the most remarkable ancient cities ever built. 
+Located about 30 miles (50 km) northeast of modern-day Mexico City, it was once the largest city in the Americas — and one of the biggest in the entire world.
 
+After researching digital innovations for documenting knowledge, 3D information, and enabling communication through web interfaces, it became clear to me the potential of these technologies to record, share, and improve how visitors understand the history of these sites. It became obvious that there was potential in bringing together the disciplines of computing and cultural heritage. Shortly afterwards, I saw an advert for a researcher at the University of Brighton working on a European Commission-funded project. I joined the University in August 2004.
 ::::
 <!-- ******************************************************************-->
 <!-- ******************************************************************-->
@@ -84,17 +83,87 @@ It became obvious the potential of bringing together the disciplines of computin
 <!-- *****The quest for data: more data better stories/use*****-->
 <!-- ******************************************************************-->
 # The Quest for Data 
-## Post museum
 
-## Audience's experiences
-## Interaction between visitor’s contexts (Falk and Dierking 1992):
-- Personal
-- Social
-- Physical
+:::::: {.columns}
+::: {.column}
+### Research challenges:
 
-# How can digital technologies contribute to enrich these experiences?
+- To enhance data capture/digitisation, preservation and scholarship in cultural heritage
+- To support interpretation of cultural heritage
+- Building capacity within organisations
+- Projects: EPOCH ([http://epoch-net.org/](http://epoch-net.org/)), 3D-COFORM
+:::
+::: {.column}
+
+![&copy; EPOCH Network of Excellence, Applications of ICT in CH ](images/historylife.png)
+:::
+:::
+
+::: {.notes}
+In my early years, I joined two large-European Comission funded projects. 
+They both aimed to address technical challenges and the research evolved into various strands: 
+(1) creating deployable methods and workflows for digitising CH assets; which provide the basis for 
+(2) creating interpretative experiences of CH collections. 
+(3) building capacity amongst practitioners 
+:::
+
+# Collaborators and Users
+
+:::::: {.columns}
+::: {.column}
+
+- GLAMs (Gallery, Libraries, Archives and Museums)
+- Audiences
+- General public
+- Policy makers, funders 
+- Digital infrastructure providers
+:::
+
+::: {.column}
+![3D scanning at the Victoria and Albert museum during 3D-COFORM project](images/vamscanning1.png)
+
+:::
+:::
+::: {.notes}
+The driving force behind much of the research was the demand to improve documentation and access to cultural heritage collections and environments that are often fragile and inaccessible. 
+Users of this research included Cultural Heritage practitioners and professionals whose moving agendas and priorities often informed the developments. 
+Other important stakeholders involved audiences and general public interested in CH.
+Also, builders of digital infrastructures, such as systems for Collection Management, Digital Assset Management Systems, Aggregators of content,
+on-the-cloud service providers.
+:::
 
 # Digitisation of material culture
+
+
+:::::: {.columns}
+::: {.column}
+- Records data on the shape, colour or other material propertiese of a real-world object, person or environment. 
+- [Digitisation process](images/scanning.mp4)
+- Results in a digital visual representation
+- Preserves information at the time of digitisation
+:::
+::: {.column}
+![Sussex archaeological objects and [3D model](images/ringvideo.mov)](images/hoard.jpg)
+:::
+:::
+
+::: {.notes}
+In the first decade of the 21st century, several forces converged to drive the rapid acceleration of digitisation.
+Powerful computers, storage, and servers were cheap enough for organisations of all sizes.
+The iPhone and the Android ecosystem also put a networked computer in billions of pockets, and
+platforms like Facebook, YouTube, and Twitter showed that user-generated content and network effects could create massive value. 
+In essence, more users led to more investment, better technologies and lower costs.
+I would like to explore the outcome of a digitisation process before continuing.
+visual digitisation processes record the shape of a real-world object, person or environment. 
+At the end of the process, we obtain a 3D model which is a digital representation of the shape of physical artefact.
+This model can serve as a digital surrogate so that the original does not need to be manipulated any longer, lowering the chances of damaging it in order to create experiences for visitors. 
+The surrogate can also serve for other important purposes for preservation and conservation including preservation of information about the original, monitoring change, etc.
+
+:::
+
+# {background-image="images/video3dcoform.png"}
+
+[Play video](images/handson.mp4)
 
 # {background-image="images/publicsculptures0.png"}
 
@@ -104,21 +173,32 @@ It became obvious the potential of bringing together the disciplines of computin
 
 # Costs
 
+# Digital Transformations
+
+## How can digital technologies contribute to enrich these experiences?
 
 
+::: notes
+:::
+# The Post-Museum Experience
 
-# Grand Challenges
-
-## To enhance data capture, preservation and scholarship in cultural heritage
-## To bring history to life for the citizen
+## Technologies
 - Digital reconstruction
 - Story telling
 - Visitor experiences
 - Internet, mobile, digital, virtual reality applications
 
-# 3D scanning
+## Audience's experiences
+## Interaction between visitor’s contexts (Falk and Dierking 1992):
+- Personal
+- Social
+- Physical
 
-## Records the shape of a real-world object, person or environment. 
+::: notes
+:::
+
+
+
 
 # 3D model: digital surrogate
 
