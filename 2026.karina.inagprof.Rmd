@@ -1,23 +1,24 @@
 ---
-title: "Reimagining Cultural Heritage in the Digital Age, A Journey Through Research"
-subtitle: "Professorial Innagural"
+title: "Reimagining Cultural Heritage in the Digital Age"
+subtitle: "Professorial Innagural, 23 April 2026"
 output: powerpoint_presentation
 bibliography: allpubs.bib
 ---
-  
-::: {.notes}
-As our lives become increasingly digital, so too does our experience of culture. Advances in computing are transforming artefacts, historic environments, and cultural practices into interactive digital experiences. These "digital twins" do more than preserve the past — they make heritage accessible beyond physical museums and archives, opening up new possibilities for creativity, education, and public engagement.
+
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Introduction*****************************-->
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
 
 
-::::
+# Agenda
 
-# Topics
-
-## - Context and bias
-## - A quest for data
-## - Data-driven approaches
-## - Role of Artificial Intelligence
-## - Metrics and Impact
+- [Context and bias](#context-and-bias)
+- [The quest for data](#the-quest-for-data)
+- [Data-driven approaches](#data-driven-approaches)
+- [The Artificial-Intelligence (AI) hype](#the-artificial-intelligence-hype)
+- [Metrics and Impact](#metrics-and-impact)
 
 :::: notes
 This talk traces the motivations, questions, and continuous evolution of my research, as well as the wider research landscape on digital innovation. Through digital innovation, my research aims to uncover the
@@ -35,22 +36,46 @@ I would finish with the rise of Artificial Intelligence and explore its role in 
 
 Through these sections, the talk explores how digital technologies, especially visual technologies, have transformed how we document and preserve culture. They have also changed who can access it, how we engage with it, and the questions we must ask about ownership, representation, and sustainability.
 ::::
+
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Context and Bias*****************************-->
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+
+
+# Context and Bias
 :::::: {.columns}
 ::: {.column}
-Content of the left column.
-:::
+- Background: Computer Science
+- Interest and motivation
+- Use-inspired Basic Research
 
+:::
 ::: {.column}
-Content of the right column.
+![&copy; HEFCE “ORSAS in Wayback Machine” 9 Feb. 2006 ](images/orsas.png)
 :::
 ::::::
-# {background-image="images/Mexico.png"}
 
 :::: notes
-Material culture - context
+After completing a degree in Computer Systems Engineering in Mexico in 99, I arrived in the UK in 2001, supported by a scholarship from the Overseas Research Students Awards Scheme (ORSAS), to begin my PhD at the University of Wolverhampton.
+Being away from my country for the first time during my doctoral studies renewed my long-term interest in its culture and history, a subject I had greatly enjoyed during my schooling days.
+
+At the time, my research involved developing digital innovations
+to support the documentation of industrial processes for plastic-injection moulded products.
+This involved exploring technologies such as web platforms, collaborative technologies 
+and 3D formats to represent content.
 ::::
 
+# {background-image="images/Mexico.png"}
+
 ::: {.notes}
+
+Just before finishing my PhD, 
+Heritage was around difficult to access the site, visitors must have an impact on the state of preservation of the site, interpretation could be improved.
+Computational technologies offered:
+  - Enable to record, share and improve the visualization of information 
+It became obvious the potential of bringing together the disciplines of computing and cultural heritage
 
 ::::
 <!-- ******************************************************************-->
@@ -58,7 +83,8 @@ Material culture - context
 <!-- *******************************Part 1*****************************-->
 <!-- *****The quest for data: more data better stories/use*****-->
 <!-- ******************************************************************-->
-# Post museum
+# The Quest for Data 
+## Post museum
 
 ## Audience's experiences
 ## Interaction between visitor’s contexts (Falk and Dierking 1992):
@@ -69,6 +95,16 @@ Material culture - context
 # How can digital technologies contribute to enrich these experiences?
 
 # Digitisation of material culture
+
+# {background-image="images/publicsculptures0.png"}
+
+# {background-image="images/publicsculptures1.png"}
+
+# {background-image="images/publiccontributions.png"}
+
+# Costs
+
+
 
 
 # Grand Challenges
@@ -92,6 +128,29 @@ Material culture - context
 ## Digital artifact
 ## Physical artifact
 
+# Complexity of content
+
+::::
+:::::: {.columns}
+::: {.column}
+Content of the left column.
+:::
+::: {.column}
+![&copy;](images/graph.png){#id .class height=5px}
+:::
+::::::
+
+# Digitisation of content
+
+:::::: {.columns}
+::: {.column}
+Content of the left column.
+:::
+::: {.column}
+![&copy; @9dc0f3aab41644ef87e8e7915427805f](images/vamscanning1.png)
+:::
+::::::
+
 # Audiences
 
 
@@ -105,11 +164,15 @@ Material culture - context
 ![&copy; [@9b3042bee3474ac1ae615d711196c840]](images/AvatarsEPOCH.png )
 
 
+[Back to agenda](#agenda)
+
 <!-- ******************************************************************-->
 <!-- ******************************************************************-->
 <!-- *******************************Part 2*****************************-->
 <!-- **Algorithmic ways to understand/organise data and approaches*******-->
 <!-- ******************************************************************-->
+
+# Data-Driven Approaches
 
 # 3D documentation and semantic analysis of architectural heritage 
 
@@ -120,6 +183,15 @@ Material culture - context
 <!-- *******************************Part 3*****************************-->
 <!-- **Looking at the future: AI role in data-driven approaches*******-->
 <!-- ******************************************************************-->
+# The Artificial Intelligence Hype
+
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Part 4*****************************-->
+<!-- *************************Metrics and Impact**********************-->
+<!-- ******************************************************************-->
+# Metrics and Impact
+
 
 # Acknowledgments
 
