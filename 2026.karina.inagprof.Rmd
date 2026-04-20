@@ -5,13 +5,7 @@ output:
   powerpoint_presentation:
   reference_doc: template.pptx
 bibliography: allpubs.bib
-marp: true
 ---
-  
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
   
 ::: {.notes}
 As our lives become increasingly digital, so too does our experience of culture. Advances in computing are transforming artefacts, historic environments, and cultural practices into interactive digital experiences. These "digital twins" do more than preserve the past — they make heritage accessible beyond physical museums and archives, opening up new possibilities for creativity, education, and public engagement.
@@ -25,6 +19,7 @@ As our lives become increasingly digital, so too does our experience of culture.
 ## - A quest for data
 ## - Data-driven approaches
 ## - Role of Artificial Intelligence
+## - Metrics and Impact
 
 :::: notes
 This talk traces the motivations, questions, and continuous evolution of my research, as well as the wider research landscape on digital innovation. Through digital innovation, my research aims to uncover the
@@ -42,15 +37,19 @@ I would finish with the rise of Artificial Intelligence and explore its role in 
 
 Through these sections, the talk explores how digital technologies, especially visual technologies, have transformed how we document and preserve culture. They have also changed who can access it, how we engage with it, and the questions we must ask about ownership, representation, and sustainability.
 ::::
+:::::: {.columns}
+::: {.column}
+Content of the left column.
+:::
 
+::: {.column}
+Content of the right column.
+:::
+::::::
 # {background-image="images/Mexico.png"}
 
 :::: notes
-I took this picture back in 2003.
-I noticed 3 issues: difficult to access the site, visitors must have an impact on the state of preservation of the site, interpretation could be improved.
-Computational technologies offered:
-- Enable to record, share and improve the visualization of information 
-It became obvious the potential of bringing together the disciplines of computing and cultural heritage
+Material culture - context
 ::::
 
 ::: {.notes}
@@ -61,6 +60,17 @@ It became obvious the potential of bringing together the disciplines of computin
 <!-- *******************************Part 1*****************************-->
 <!-- *****The quest for data: more data better stories/use*****-->
 <!-- ******************************************************************-->
+# Post museum
+
+## Audience's experiences
+## Interaction between visitor’s contexts (Falk and Dierking 1992):
+- Personal
+- Social
+- Physical
+
+# How can digital technologies contribute to enrich these experiences?
+
+# Digitisation of material culture
 
 
 # Grand Challenges
@@ -72,17 +82,29 @@ It became obvious the potential of bringing together the disciplines of computin
 - Visitor experiences
 - Internet, mobile, digital, virtual reality applications
 
+# 3D scanning
 
+## Records the shape of a real-world object, person or environment. 
+
+# 3D model: digital surrogate
+
+# Workflows for developing interactive experiences
+## Digital artefact
+## Digital/physical transformations
+## Digital artifact
+## Physical artifact
+
+# Audiences
+
+
+# 3D technologies for audiences in a museum gallery
+## Physical reconstructions of Sussex ancestors
+## Tactile replicas of archaeological artefacts
+## Puzzle-based tactile experience
 
 # Immersive Environments
 
 ![&copy; [@9b3042bee3474ac1ae615d711196c840]](images/AvatarsEPOCH.png )
-
-
-
-
-
-
 
 
 <!-- ******************************************************************-->
@@ -91,8 +113,9 @@ It became obvious the potential of bringing together the disciplines of computin
 <!-- **Algorithmic ways to understand/organise data and approaches*******-->
 <!-- ******************************************************************-->
 
+# 3D documentation and semantic analysis of architectural heritage 
 
-
+## Semantic analysis
 
 <!-- ******************************************************************-->
 <!-- ******************************************************************-->
@@ -106,7 +129,6 @@ D. Arnold, O. Abdel Barr, A. Aboulfadl, N. Ali, G. Aitken, A. Al-Ashaab, F. Alve
 
 
 
-# {background-image="images/IMG_7257.png"}
 
 :::: notes
 I would like to make a special mention of my husband and children, whose unconditional support means more than words can express. 
