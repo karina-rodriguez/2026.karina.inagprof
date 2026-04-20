@@ -1,9 +1,7 @@
 ---
 title: "Reimagining Cultural Heritage in the Digital Age, A Journey Through Research"
 subtitle: "Professorial Innagural"
-output: 
-  powerpoint_presentation:
-  reference_doc: template.pptx
+output: powerpoint_presentation
 bibliography: allpubs.bib
 ---
   
