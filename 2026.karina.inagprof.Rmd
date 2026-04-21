@@ -107,30 +107,7 @@ They both aimed to address technical challenges and the research evolved into va
 (3) building capacity amongst practitioners 
 :::
 
-# Collaborators and Users
 
-:::::: {.columns}
-::: {.column}
-
-- GLAMs (Gallery, Libraries, Archives and Museums)
-- Audiences
-- General public
-- Policy makers, funders 
-- Digital infrastructure providers
-:::
-
-::: {.column}
-![3D scanning at the Victoria and Albert museum during 3D-COFORM project](images/vamscanning1.png)
-
-:::
-:::
-::: {.notes}
-The driving force behind much of the research was the demand to improve documentation and access to cultural heritage collections and environments that are often fragile and inaccessible. 
-Users of this research included Cultural Heritage practitioners and professionals whose moving agendas and priorities often informed the developments. 
-Other important stakeholders involved audiences and general public interested in CH.
-Also, builders of digital infrastructures, such as systems for Collection Management, Digital Assset Management Systems, Aggregators of content,
-on-the-cloud service providers.
-:::
 
 # Digitisation of material culture
 
@@ -148,12 +125,13 @@ on-the-cloud service providers.
 :::
 
 ::: {.notes}
+I would like to briefly pause to explore the process and the outcome of a digitisation process before continuing.
 In the first decade of the 21st century, several forces converged to drive the rapid acceleration of digitisation.
 Powerful computers, storage, and servers were cheap enough for organisations of all sizes.
 The iPhone and the Android ecosystem also put a networked computer in billions of pockets, and
 platforms like Facebook, YouTube, and Twitter showed that user-generated content and network effects could create massive value. 
 In essence, more users led to more investment, better technologies and lower costs.
-I would like to explore the outcome of a digitisation process before continuing.
+
 visual digitisation processes record the shape of a real-world object, person or environment. 
 At the end of the process, we obtain a 3D model which is a digital representation of the shape of physical artefact.
 This model can serve as a digital surrogate so that the original does not need to be manipulated any longer, lowering the chances of damaging it in order to create experiences for visitors. 
@@ -164,6 +142,31 @@ The surrogate can also serve for other important purposes for preservation and c
 # {background-image="images/video3dcoform.png"}
 
 [Play video](images/handson.mp4)
+
+# Collaborators and Users
+
+:::::: {.columns}
+::: {.column}
+
+- GLAMs (Gallery, Libraries, Archives and Museums)
+- Audiences
+- General public
+- Policy makers, funders 
+- Digital infrastructure providers
+:::
+
+::: {.column}
+![3D scanning at the Victoria and Albert museum [@9dc0f3aab41644ef87e8e7915427805f]](images/vamscanning1.png)
+
+:::
+:::
+::: {.notes}
+The driving force behind much of the research was the demand to improve documentation and access to cultural heritage collections and environments that are often fragile and inaccessible. 
+Users of this research included Cultural Heritage practitioners and professionals whose moving agendas and priorities often informed the developments. 
+Other important stakeholders involved audiences and general public interested in CH.
+Also, builders of digital infrastructures, such as systems for Collection Management, Digital Assset Management Systems, Aggregators of content,
+on-the-cloud service providers.
+:::
 
 # {background-image="images/publicsculptures0.png"}
 
