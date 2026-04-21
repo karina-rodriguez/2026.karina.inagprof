@@ -1,8 +1,9 @@
 ---
 title: "Reimagining Cultural Heritage in the Digital Age"
 subtitle: "Professorial Innagural, 23 April 2026"
-output: powerpoint_presentation
-slide_level: 4
+output:
+  powerpoint_presentation:
+    reference_doc: template.pptx
 bibliography: allpubs.bib
 ---
 
@@ -88,10 +89,10 @@ After researching digital innovations for documenting knowledge, 3D information,
 ::: {.column}
 ### Research challenges:
 
-- To enhance data capture/digitisation, preservation and scholarship in cultural heritage
+- To enhance digitisation, preservation and scholarship in cultural heritage
 - To support interpretation of cultural heritage
 - Building capacity within organisations
-- Projects: EPOCH ([http://epoch-net.org/](http://epoch-net.org/)), 3D-COFORM
+- EC-funded Projects: EPOCH ([http://epoch-net.org/](http://epoch-net.org/)), 3D-COFORM Research 
 :::
 ::: {.column}
 
@@ -109,15 +110,14 @@ They both aimed to address technical challenges and the research evolved into va
 
 
 
-# Digitisation of material culture
-
+# Digitisation of Material Culture
 
 :::::: {.columns}
 ::: {.column}
-- Records data on the shape, colour or other material propertiese of a real-world object, person or environment. 
+- Measures data on the shape, colour and other material properties of a objects, people or environments. 
 - [Digitisation process](images/scanning.mp4)
-- Results in a digital visual representation
-- Preserves information at the time of digitisation
+- Results in a digital representation
+- Preserves data acquired at the time of digitisation 
 :::
 ::: {.column}
 ![Sussex archaeological objects and [3D model](images/ringvideo.mov)](images/hoard.jpg)
@@ -168,13 +168,101 @@ Also, builders of digital infrastructures, such as systems for Collection Manage
 on-the-cloud service providers.
 :::
 
-# {background-image="images/publicsculptures0.png"}
+---
+# Digital Infrastructures
+:::::: {.columns}
+::: {.column}
+*In-house training has the highest start-up costs and incurs the biggest risks if staff move on, however, it has a huge strategic value in terms of flexibility and long-term cost reduction for large numbers of objects. [@9dc0f3aab41644ef87e8e7915427805f]*
+:::
+::: {.column}
+![Kira Zumley, PhD student scanning at the V&A](images/kirascanning.jpg)
+:::
+:::
+::: notes
+During this time, we looked at the effort, opportunities, and risks of building infrastructure to support digitisation. These infrastructures often involve databases and computers that can store, process, and manage digital information and make it accessible via web-based interfaces or mobile apps.
+The rise of tech companies during the first decade of this century proved key to the era we live in today. For two decades, there has been a trend of public organisations outsourcing critical functions, including digital infrastructure.
 
-# {background-image="images/publicsculptures1.png"}
+Marietje Schaake, in her book "The Tech Coup: How to Save Democracy from Silicon Valley"
+discusses how the coup by tech companies is systemic, and it's often not very visible.
+While many governments and public organisations embraced digitisation, the process relied heavily on outsourcing to private companies rather than investing in internal public-sector capabilities and expertise. This outsourcing leads to a loss of knowledge and control over critical services, making future innovation more dependent on private actors, whose profit-driven motives differ from the public interest, thereby weakening government agency and oversight.
+:::
 
-# {background-image="images/publiccontributions.png"}
+# {background-image="images/pmsa.png"}
 
-# Costs
+::: notes
+Our research involved looking at communities digitising heritage assets, and we had an  initiative to support the digitisation of public scultpure and monuments in Brighton and Hove. This project ran alongside the Public sculptures of Sussex: The Public Monuments and Sculpture Association National Recording Project by Peter Seddon, Dr Jill Seddon and Dr Anthony McIntosh.
+The project used a crowdsourcing approach to produce a public dataset by combining contributions, embedding provenance information and directing the contributions of communities over an entire selection of heritage artefacts in order to create a 3D collection of those arte
+facts. This was an approach ArtUK eventually implemented through their Public Sculpture Digitisation (2017–2021) project wil enabled to record over 14,000 public sculptures and monuments.
+:::
+
+[Back to agenda](#agenda)
+
+_____
+<!-- ******************************************************************-->
+<!-- ******************************************************************-->
+<!-- *******************************Part 2*****************************-->
+<!-- **Algorithmic ways to understand/organise data and approaches*******-->
+<!-- ******************************************************************-->
+
+# Data-Driven Approaches
+
+:::: {.columns}
+:::: {.column}
+## Research Challenges:
+- Supporting easy discovery and access to data
+- Enhancing data-driven approaches for applications in Cultural Heritage
+- EPSRC-funded research: First Grant: Automatic Semantic Analysis of Digital Repositories (2013-2015)
+
+::::
+:::: {.column}
+![&copy; By MS from AdobeStock](images/findingdata.png)
+
+::::
+::::
+
+::: notes
+Inevitably, the wider availability of data leads to further research challenges
+As technologies for digitisation start being adopted, the amount of data increases. To enable the creative use of this content, it is necessary to address challenges related to the organisation, management, discovery and easy use of the data.
+In 2013, funded by my first EPSRC grant, the research developed what is known as semantic-enrichment approaches for 3D content. The project was developed in collaboration with the Regency Town House in Brighton and Hove, engaging with their plaster moulding collection.
+:::
+
+# Semantic Metadata Enrichment
+
+:::: {.columns}
+:::: {.column}
+- Semantic metadata: information that provides insights into what the data represents
+- **Data about the data**
+- Post-museum theoretical framework [@falk92]
+::::
+:::: {.column}
+![Volunteers examining collections of Ashante weights at Brighton Museum](images/semantics.jpg)
+::::
+::::
+
+::: notes
+*Semantic metadata* is the information that describes the digital surrogate. It can be said that is the Data about the data.
+It goes beyond simple labels or technical details to provide insights into what the data actually represents, enabling better understanding, discovery, and interoperability.
+Semantic metadata is especially important in fields like data integration, knowledge management, and the Semantic Web, where understanding the context and relationships within and between datasets is essential for meaningful analysis and automation.
+Yet, it can be argued that the semantics of objects in cultural heritage are not straightforward, as meaning is negotiated through interactions with artefacts and within sites. For instance, according to the post-museum theoretical framework, meaning during museum visits is created through the interplay of personal, social, and physical contexts.
+:::
+
+# Automating Semantic Enrichment
+
+
+The motivation was to support tagging data with useful metadata
+- Opportunities for research and other applications in Cultural Heritage
+
+
+
+ developing technologies to support the
+organisation and discoverability of 3D content in the Cultural Heritage (CH) domain. This research takes advantage on the
+fact that heritage artefacts have been designed throughout the centuries with distinctive design styles. Hence, the shape and
+the decoration of an artefact can provide significant information on the history of the artefact. Hence, the main contributions
+of the paper include an ontology for documenting 3D representations of heritage artefacts decorated with ornament, such as
+architectural mouldings. In addition, the paper presents a complementary shape analysis method based on shape saliency to
+improve the automatic classification of the artefact semantic information based on its 3D shape. This method is tested on a
+collection of Regency ornament mouldings found in domestic interiors. This content provides a rich dataset on which to explore
+issues common to many CH artefacts, such as design styles and decorative ornament
 
 # Digital Transformations
 
@@ -183,7 +271,6 @@ on-the-cloud service providers.
 
 ::: notes
 :::
-# The Post-Museum Experience
 
 ## Technologies
 - Digital reconstruction
@@ -191,11 +278,6 @@ on-the-cloud service providers.
 - Visitor experiences
 - Internet, mobile, digital, virtual reality applications
 
-## Audience's experiences
-## Interaction between visitor’s contexts (Falk and Dierking 1992):
-- Personal
-- Social
-- Physical
 
 ::: notes
 :::
@@ -244,18 +326,9 @@ Content of the left column.
 
 # Immersive Environments
 
-![&copy; [@9b3042bee3474ac1ae615d711196c840]](images/AvatarsEPOCH.png )
 
 
-[Back to agenda](#agenda)
 
-<!-- ******************************************************************-->
-<!-- ******************************************************************-->
-<!-- *******************************Part 2*****************************-->
-<!-- **Algorithmic ways to understand/organise data and approaches*******-->
-<!-- ******************************************************************-->
-
-# Data-Driven Approaches
 
 # 3D documentation and semantic analysis of architectural heritage 
 
