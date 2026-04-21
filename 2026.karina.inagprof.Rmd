@@ -68,7 +68,7 @@ and 3D formats to represent content.
 
 ::::
 
-# {background-image="images/Mexico.png"}
+# {background-image="images/mexico.png"}
 
 ::: {.notes}
 
