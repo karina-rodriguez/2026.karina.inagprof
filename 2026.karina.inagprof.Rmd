@@ -1,6 +1,6 @@
 ---
 title: "Reimagining Cultural Heritage in the Digital Age"
-subtitle: "Professorial Innagural, 23 April 2026"
+subtitle: "Professorial Inagural, 23 April 2026"
 output:
   powerpoint_presentation:
     reference_doc: template.pptx
@@ -19,8 +19,7 @@ bibliography: allpubs.bib
 - [Context and bias](#context-and-bias)
 - [The quest for data](#the-quest-for-data)
 - [Data-driven approaches](#data-driven-approaches)
-- [The Artificial-Intelligence (AI) hype](#the-artificial-intelligence-hype)
-- [Metrics and Impact](#metrics-and-impact)
+- [Future digital infrastructures](#future-digital-infrastructures)
 
 :::: notes
 This talk traces the motivations, questions, and continuous evolution of my research, as well as the wider research landscape on digital innovation. Through digital innovation, my research aims to uncover the
@@ -34,7 +33,7 @@ Secondly, I will explore the big push for digitisation in the 2000s, particularl
 
 Following this, I will discuss the infrastructures and data-driven approaches developed to organise, enable, and open access to data.
 
-I would finish with the rise of Artificial Intelligence and explore its role in trawling large amounts of data.
+I would finish with the rise of Artificial Intelligence and explore future ways to support communities and organisations leverage their data in ways which are ethical, equitable and sustainable.
 
 Through these sections, the talk explores how digital technologies, especially visual technologies, have transformed how we document and preserve culture. They have also changed who can access it, how we engage with it, and the questions we must ask about ownership, representation, and sustainability.
 ::::
@@ -115,7 +114,7 @@ They both aimed to address technical challenges and the research evolved into va
 :::::: {.columns}
 ::: {.column}
 - Measures data on the shape, colour and other material properties of a objects, people or environments. 
-- [Digitisation process](images/scanning.mp4)
+- [Digitisation process](videos/scanning.mp4)
 - Results in a digital representation
 - Preserves data acquired at the time of digitisation 
 :::
@@ -236,6 +235,7 @@ In 2013, funded by my first EPSRC grant, the research developed what is known as
 ::::
 :::: {.column}
 ![Volunteers examining collections of Ashante weights at Brighton Museum](images/semantics.jpg)
+
 ::::
 ::::
 
@@ -246,100 +246,285 @@ Semantic metadata is especially important in fields like data integration, knowl
 Yet, it can be argued that the semantics of objects in cultural heritage are not straightforward, as meaning is negotiated through interactions with artefacts and within sites. For instance, according to the post-museum theoretical framework, meaning during museum visits is created through the interplay of personal, social, and physical contexts.
 :::
 
-# Automating Semantic Enrichment
+# Approaches for 3D content
+
+:::: {.columns}
+:::: {.column}
+- [Manually tagging information](videos/tagg3d.mp4)
+- Automating the analysis of the shape to extract semantics [@1cf25fe271474ab28c1eea4cd9e1cfb0]
+- Deployed to document knowledge and semantics [Regency ornament mouldings](videos/vlc-record-2016-10-06-07h44m58s-3dsem.mp4) of the Regency Town House 
+- Enables grouping [similar shapes](videos/website_3d_model.mp4)
 
 
-The motivation was to support tagging data with useful metadata
-- Opportunities for research and other applications in Cultural Heritage
-
-
-
- developing technologies to support the
-organisation and discoverability of 3D content in the Cultural Heritage (CH) domain. This research takes advantage on the
-fact that heritage artefacts have been designed throughout the centuries with distinctive design styles. Hence, the shape and
-the decoration of an artefact can provide significant information on the history of the artefact. Hence, the main contributions
-of the paper include an ontology for documenting 3D representations of heritage artefacts decorated with ornament, such as
-architectural mouldings. In addition, the paper presents a complementary shape analysis method based on shape saliency to
-improve the automatic classification of the artefact semantic information based on its 3D shape. This method is tested on a
-collection of Regency ornament mouldings found in domestic interiors. This content provides a rich dataset on which to explore
-issues common to many CH artefacts, such as design styles and decorative ornament
-
-# Digital Transformations
-
-## How can digital technologies contribute to enrich these experiences?
-
-
-::: notes
-:::
-
-## Technologies
-- Digital reconstruction
-- Story telling
-- Visitor experiences
-- Internet, mobile, digital, virtual reality applications
-
-
-::: notes
-:::
-
-
-
-
-# 3D model: digital surrogate
-
-# Workflows for developing interactive experiences
-## Digital artefact
-## Digital/physical transformations
-## Digital artifact
-## Physical artifact
-
-# Complexity of content
 
 ::::
+:::: {.column}
+![Saliency of 3D mouldings [@1cf25fe271474ab28c1eea4cd9e1cfb0]](images/saliency.png)
+::::
+::::
+
+:::: notes
+The technologies to support tagging data with useful metadata are now widely established
+through web interfaces. The involve selecting the areas of 3D models which represent certain information and attaching additional information to the data.
+Another approach which was developed is using the concept of saliency.
+The research developed analytical method based on shape saliency to improve the automatic classification of the artefact semantic information based on its 3D shape. This method is tested on a
+collection of Regency ornament mouldings found in domestic interiors. The content provides a rich dataset on which to explore
+issues common to many CH artefacts, such as design styles and decorative ornament
+3D saliency, as shape semantic, is a measure of relative importance of different regions of a 3D surface.
+:::::
+
+# Artificial-Intelligence (AI) based Approaches
+
+
+:::: {.columns}
+:::: {.column}
+## Collaboration with the Design Archives (DA)
+- Identify common content patterns in the DA's Design Council Photographic Library
+- Automates tagging and grouping similar images [@6f2ed977d74647c88938c59d57808aa6]
+- 3D content is still an ongoing challenge
+
+:::::
+:::: {.column}
+![1755-O (&copy;CoID) image with object identification with YOLO model](images/aiapproach.png)
+
+::::
+::::
+
+:::: notes
+We recently have explored approaches based on training Artificial Intelligence (or AI) models to identify visual data in photographs. Using existing AI models for images, and what is known as unified vision-language understanding, we collaborated with the Design Archives looking at their Photographic Library of the Council of Industrial Design.
+Through ongoing digitisation efforts, high-resolution scanned images have been made in the last few years. The digital files are labelled with identifiers available in the physical medium. To this date, $\sim$10,000 photographs of a total of approximately $\sim$100,000 images in physical form and $\sim$10,000 digitised glass plates of a total of $\sim$60,000 plates in physical form have been digitised. 
+::::
+
+# {background-image="images/approach.png"}
+
+::: notes
+Similar to other visual cultural collections, cataloguing this material is not an easy task, as there are multiple interpretations for its subject classification. The proposed method utilises AI-assisted image classification and unified vision-language understanding, combining visual features with semantic context to generate metadata, can support experts to enrich this material for access. 
+The proposed approach involves
+1) making the large-scale visual collection is made available via a interoperable framework known as IIIF.
+2) Expert labels are generated using an AI-based supervised learning algorithm
+for image classification. For this, a Foundation Model (FM) is fine-tuned with an expert-based set of labels.
+3) Text-rich captions are generated for the collections, resulting in a set of non-expert labels for each image.
+4) The metadata is made available alongside the visual collection. 
+:::
+
+# {background-image="images/phdopportunity.png"}
+
+
+# Creative (Re)Use of Digital Surrogates: Broadening Engagment with CH
+
+:::: {.columns}
+:::: {.column}
+## Potential for digital surrogate to support (critical) engagement, through:
+
+- Physical encounters
+- Interactive experiences
+- Multiple context for interpretation (e.g. museum visit, everyday life)
+::::
+:::: {.column}
+
+![3D printed enlarged model of archaeological item at Brighton Museum and art gallery](images/IMG_20190125_202758.jpg)
+
+::::
+::::
+::: notes
+:::
+
+
+# Physical Encounters
+
 :::::: {.columns}
 ::: {.column}
-Content of the left column.
+- Focus on gamified interactions with the archaeological artefacts
+- Algorithmic design and customisable digital fabrication
+- Deployed with the Satdean urn at the Brighton Museum and Art Gallery
 :::
 ::: {.column}
-![&copy;](images/graph.png){#id .class height=5px}
+![Digital fabrication post-processing of puzzle pieces](images/puzzlemaking.png)
+:::
+::::
+
+::: notes
+The generation of tactile artefacts for the museum was tested with an Iron Age urn which
+was found at the edge of a cliff on the south east coastal area of the United Kingdom in 1910.
+3D printed replicas of artefacts have been used for a variety of purposes when managing cultural heritage resources. We used replicas along with digital content to support interpretative experiences.
+:::
+# Fracture Generation Algorithm
+
+:::::: {.columns}
+::: {.column}
+# Combines two types of geometric representations [@8eb81a287d84409a92b0cdc8187de509]
+
+- Polygonal mesh and Constructive Solid Geometry (CSG).
+- Boolean intersection operations.
+- Online version: [https://3dpuzzle.chws.brighton.domains/](https://3dpuzzle.chws.brighton.domains/)
+
+
+:::
+::: {.column}
+![Puzzle pieces are produced by boolean operations using CSG](images/puzzlegeneration.png)
 :::
 ::::::
 
-# Digitisation of content
+# Interactive Experiences
 
-:::::: {.columns}
+::: {.columns}
 ::: {.column}
-Content of the left column.
+# Engages with visual information of an area or location as it might have been in the past.
+- Brings history to life for the user
+- Illustrates multiple interpretations of the uses of the Satdean urn in the Late Iron Age
 :::
 ::: {.column}
-![&copy; @9dc0f3aab41644ef87e8e7915427805f](images/vamscanning1.png)
+![3D Visualisation of Saltdean area [@17d9c1d2b6b34f33842d4f0e0871f35a]](images/vrcontext.png)
 :::
 ::::::
 
-# Audiences
+:::: notes
+The best way to study and understand cultural heritage is to experience it in the closest way to the real world as possible. 
+Virtual reality experiences allow the user to interact with the digital world in an engaging way.
+Typically, the main objectives of Virtual Reality experiences include:
+- The visualisation of artefacts and sites along the contexts in
+which they were created and used.
+- Enhancement of learning, understanding of visitors regarding the past, while providing an interactive experience.
+::::
+
+# Creative Interactions
+
+::: {.columns}
+::: {.column}
+- Engaging communities with everyday connections to objects, sites and events in the urban landscape.
+- Piloted with over 250 young people from primary schools in Brighton and Hove.
+- Digital outputs using Augumented Reality: [map](videos/exploringthefamiliardigital0.mp4) and [pop up book](videos/exploringthefamiliardigital1.mp4) [@67de57da91fa48eabec0db686832ec96].
+:::
+::: {.column}
+![Activities in local school [@1011453479007]](images/exploringthefamiliar.png)
+:::
+:::
+
+# Affordabilities of Visual Data
 
 
-# 3D technologies for audiences in a museum gallery
-## Physical reconstructions of Sussex ancestors
-## Tactile replicas of archaeological artefacts
-## Puzzle-based tactile experience
+::: {.columns}
+::: {.column}
 
-# Immersive Environments
-
-
-
+- Multipurpose digital resource
+- Data-driven approaches
+- Engages diverse audiences
+- Benefit from collaborative approaches and interdisciplinarity
 
 
-# 3D documentation and semantic analysis of architectural heritage 
+[Back to agenda](#agenda)
+::::
+::: {.column}
+![3D scanning of photographic camera for Hove Plinth project](images/scan.jpg)
+::::
+::::
 
-## Semantic analysis
+
+:::: notes
+- *Multipurpose digital resource*: 3D surrogate can support multiple processes, including research, preservation and interpretation.
+- *Data-driven approaches* can offer automation and cost-effective solutions which would not be possible otherwise.
+- *Engages diverse audiences*: Enables the development of a wide variety of experiences which appeal to different audiences.
+::::
 
 <!-- ******************************************************************-->
 <!-- ******************************************************************-->
 <!-- *******************************Part 3*****************************-->
-<!-- **Looking at the future: AI role in data-driven approaches*******-->
+<!-- **Looking at the future: Digital Infrastructures*******-->
 <!-- ******************************************************************-->
-# The Artificial Intelligence Hype
+# Future Digital Infrastructures
+
+::: {.columns}
+::: {.column}
+- Underpins digitisation and deploying technology within organisations
+- Requires continuous investment in skills, expertise and hardware/software 
+- High-risk if not right
+:::
+::: {.column}
+![Capacity building training in the Brighton Museum & Art Gallery in 2017](images/training.png)
+:::
+:::
+
+
+::: notes
+Previously I mentioned that building capacity was a big focus of the research. Almost all projects in which I work involve an element of training, capacity building and knowledge transfer to organisations.
+
+Through this work, the common question is how users can deploy the software, tools, workflows which they learn about.
+
+Without infrastructure there is no digitisation nor engagement with digital surrogates.
+
+Beside skills, a minimum set of infrastructure is required: a PC, a 3D scanner or camera, a server to make the content accessible, expertise and support to mantain this infrastructure.
+
+And getting it wrong there is a high cost!
+On Saturday 28 October 2023, a hacker group entered a server at the British Library.
+The criminal gang responsible for the attack copied and exfiltrated (illegally removed) some 600GB of files, including personal data of Library users and staff. When it became clear that no ransom would be paid, this data was put up for auction and subsequently dumped on the dark web. 
+All their software systems cannot be brought back in their pre-attack form, either because they
+are no longer supported by the vendor or because they will not function on the new secure
+infrastructure that is currently being rolled out.
+
+This incident illustrate what is at stake to keep infrastructure maintained and protected.
+
+The last decade saw an expansion on the privatisation of infrastructures in the public sector. Increasingly, GLAMS use private infrastructures to host their collections and provide access through API interfaces and websites.
+
+:::
+
+# World-wide Communities: Digitisation of Intangible Practices 
+
+::: {.columns}
+::: {.column}
+- Community-led digitisation
+- Address sustainability challenges
+- Brings innovation and equitable futures to communities around the world [@a4bc0d5a7301419abfa607faef7bc7a0]
+:::
+::: {.column}
+![Artisans in historic centre, Cairo [@a4bc0d5a7301419abfa607faef7bc7a0]](images/cairo.jpg)
+:::
+:::
+::: notes
+Through the previous project in the craft of ornamental plaster mouldings, I became increasingly interested in documenting the knowledge related to making practices.
+The motivation behind it is that artisan communities, which are carriers of intangible practices of craft, increasingly face challenges for their sustainability in an increasingly globalised world. Challenges around competition, regulatory frameworks and access to technologies threatens communities. 
+Hence, the potential of this research to support the documentation and dissemination of the intangible heritage of communities across the world is great. 
+Yet new approaches and infrastructures which serve the community are required.
+Community-led digitisation is key.
+Through a research funded by the British Council, we had the opportunity to collaborate with the Egyptian Heritage Rescue Foundation, Cairo to scope research agendas for supporting communities to document their intangible heritage, and enable the digital transformation of their practices.
+:::
+
+# Digital Infrastructures for Artisans
+::: {.columns}
+::: {.column}
+- Documenting knowledge with artisans in [historic centre, Cairo](images/igniteegypt.mp4)  funded funded by British Council and UoB Ignite programme
+- Developing infrastructures for community-based digitisation with [Rajasthan, India](images/IndiaUKAHRCVideo.mp4) 
+- Decentralised infrastructures as alternatives to social-media centralised models 
+:::
+::: {.column}
+![Meeting with artisans in Beawar, Rajasthan, India](images/meetingindia.jpg)
+
+:::
+:::
+
+# Infrastructure as Code
+
+# Sustainability of content
+- Where all this software goes
+- Sustainability
+- Raise of outsourcing infrastructure
+
+# Soverignity and Investment in Digital Research Infrastructures
+
+- Why are they important 
+- Who use them: researchers, DRTPs, 
+- What barriers there are: skills and awarness
+
+# What about communities who co-develop research?
+
+- Documentation of their heritage
+- Egypt
+- India
+- Economic perspective
+
+# Future decentralised
+- Shared infrastructures
+- Community networks
+- Governance models
 
 <!-- ******************************************************************-->
 <!-- ******************************************************************-->
